@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Guitar Mastery System - 12 Weeks</title>
+<meta name="robots" content="noindex">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;700&family=Bebas+Neue&display=swap');
+html,body{margin:0;padding:0;background:#0B0D10;}
+.bgu-page{--bgu-bg:#0B0D10;--bgu-bg2:#12151A;--bgu-gold:#C9922F;--bgu-gl:#E9BE68;--bgu-cr:#F2EDE3;--bgu-cd:#C9C2B4;--bgu-td:#8A8375;--bgu-rl:#8C3A20;--bgu-gl2:#5FA87A;--bgu-line:rgba(233,190,104,.18);--bgu-r:10px;
+  background:var(--bgu-bg);color:var(--bgu-cr);font-family:'Lato',sans-serif;line-height:1.75;font-size:18px;padding-bottom:88px;overflow-x:hidden;}
+.bgu-page *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+.bgu-wrap{width:100%;max-width:620px;margin:0 auto;padding:0 20px;}
+.bgu-top{background:#070809;border-bottom:2px solid var(--bgu-rl);padding:11px 18px;text-align:center;}
+.bgu-top p{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;color:#D97C5C;}
+.bgu-hero{background:radial-gradient(circle at 50% 0%,rgba(201,146,47,.14),transparent 48%),linear-gradient(170deg,#12100A,#0B0D10);padding:34px 20px 32px;text-align:center;border-bottom:1px solid var(--bgu-line);}
+.bgu-tag{display:inline-block;background:var(--bgu-rl);color:#fff;font-family:'Bebas Neue',sans-serif;font-size:13px;letter-spacing:2px;padding:7px 15px 6px;border-radius:3px;margin-bottom:18px;}
+.bgu-hero h1{font-family:'Playfair Display',serif;font-size:clamp(30px,8vw,45px);font-weight:900;line-height:1.12;color:var(--bgu-cr);margin-bottom:18px;}
+.bgu-hero h1 em{color:var(--bgu-gl);font-style:normal;}
+.bgu-sub{font-size:18px;color:var(--bgu-cd);line-height:1.75;max-width:540px;margin:0 auto;}
+.bgu-sub strong{color:var(--bgu-cr);}
+.bgu-result{margin:22px auto 0;max-width:500px;padding:14px 16px;background:rgba(233,190,104,.07);border:1px solid rgba(233,190,104,.2);border-radius:8px;font-size:17px;color:var(--bgu-cr);}
+.bgu-result strong{color:var(--bgu-gl);}
+.bgu-flash{display:flex;align-items:baseline;justify-content:center;gap:12px;margin:24px 0 5px;}
+.bgu-flash b{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:60px;color:var(--bgu-gl);line-height:1;}
+.bgu-flashnote{font-size:14px;color:var(--bgu-td);}
+.bgu-btn{display:block;width:100%;max-width:480px;margin:21px auto 0;background:linear-gradient(180deg,#E9BE68,#C9922F);color:#1C1406;font-family:'Bebas Neue',sans-serif;font-size:27px;letter-spacing:1px;text-align:center;text-decoration:none;padding:18px 20px 15px;border-radius:var(--bgu-r);box-shadow:0 4px 0 #8A650F;}
+.bgu-btn:hover{filter:brightness(1.06);color:#1C1406;}
+.bgu-btn:active{transform:translateY(2px);box-shadow:0 2px 0 #8A650F;}
+.bgu-btnsub{text-align:center;font-size:14px;color:var(--bgu-td);margin-top:10px;line-height:1.6;}
+.bgu-section{padding:34px 20px 0;}
+.bgu-div{width:48px;height:3px;background:var(--bgu-gold);margin:0 auto 25px;border-radius:2px;}
+.bgu-text{font-size:18px;color:var(--bgu-cd);line-height:1.85;margin-bottom:25px;}
+.bgu-text p+p{margin-top:17px;}
+.bgu-text strong{color:var(--bgu-cr);}
+.bgu-q{text-align:center;font-family:'Playfair Display',serif;font-size:25px;line-height:1.3;color:var(--bgu-cr);margin:30px 0 18px;}
+.bgu-q span{color:var(--bgu-gl);}
+.bgu-prob{background:rgba(140,58,32,.10);border:1px solid rgba(140,58,32,.42);border-radius:var(--bgu-r);padding:21px 18px;margin:25px 0;}
+.bgu-prob h3{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:1.5px;color:#D97C5C;margin-bottom:12px;}
+.bgu-prob p{font-size:17px;color:var(--bgu-cd);line-height:1.75;}
+.bgu-prob p+p{margin-top:12px;}
+.bgu-sol{background:rgba(95,168,122,.07);border:1px solid rgba(95,168,122,.32);border-radius:var(--bgu-r);padding:21px 18px;margin:25px 0;}
+.bgu-sol h3{font-family:'Bebas Neue',sans-serif;font-size:19px;letter-spacing:1.5px;color:var(--bgu-gl2);margin-bottom:12px;}
+.bgu-sol p{font-size:17px;color:var(--bgu-cd);line-height:1.75;}
+.bgu-sol strong{color:var(--bgu-cr);}
+.bgu-promise{text-align:center;margin:34px 0;}
+.bgu-plabel{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;color:var(--bgu-gl);margin-bottom:10px;}
+.bgu-promise h2{font-family:'Playfair Display',serif;font-size:28px;line-height:1.3;color:var(--bgu-cr);}
+.bgu-promise h2 span{color:var(--bgu-gl);}
+.bgu-path{margin:30px 0;}
+.bgu-ptitle{font-family:'Playfair Display',serif;text-align:center;font-size:22px;color:var(--bgu-cr);margin-bottom:6px;}
+.bgu-psub{text-align:center;color:var(--bgu-td);font-size:15px;margin-bottom:18px;}
+.bgu-plist{display:flex;flex-direction:column;gap:10px;}
+.bgu-pitem{display:flex;gap:14px;align-items:flex-start;padding:15px;background:rgba(201,146,47,.05);border:1px solid rgba(201,146,47,.14);border-radius:var(--bgu-r);}
+.bgu-pnum{flex-shrink:0;width:34px;height:34px;border-radius:50%;background:rgba(233,190,104,.13);border:1px solid rgba(233,190,104,.35);color:var(--bgu-gl);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:17px;}
+.bgu-pitem strong{display:block;color:var(--bgu-cr);font-size:17px;margin-bottom:2px;}
+.bgu-pitem span{color:var(--bgu-cd);font-size:15px;line-height:1.55;}
+.bgu-pitem i{font-style:normal;color:var(--bgu-td);font-size:13px;letter-spacing:.08em;text-transform:uppercase;display:block;margin-top:4px;}
+.bgu-inc{margin:32px 0;}
+.bgu-ititle{font-family:'Playfair Display',serif;font-size:23px;font-weight:700;color:var(--bgu-cr);margin-bottom:7px;text-align:center;}
+.bgu-isub{text-align:center;color:var(--bgu-td);font-size:15px;margin-bottom:18px;}
+.bgu-ilist{list-style:none;display:flex;flex-direction:column;gap:9px;}
+.bgu-ilist li{font-size:17px;color:var(--bgu-cd);display:flex;align-items:flex-start;gap:11px;line-height:1.6;padding:14px 15px;background:rgba(201,146,47,.04);border:1px solid rgba(201,146,47,.12);border-radius:var(--bgu-r);}
+.bgu-ilist li::before{content:'\2713';color:var(--bgu-gl2);font-weight:700;flex-shrink:0;margin-top:1px;}
+.bgu-ilist li strong{color:var(--bgu-cr);}
+.bgu-value{margin:32px 0;padding:24px 18px;background:linear-gradient(145deg,rgba(233,190,104,.09),rgba(201,146,47,.03));border:2px solid rgba(233,190,104,.28);border-radius:14px;text-align:center;}
+.bgu-value h2{font-family:'Playfair Display',serif;font-size:25px;line-height:1.3;color:var(--bgu-cr);margin-bottom:12px;}
+.bgu-value p{color:var(--bgu-cd);font-size:17px;line-height:1.75;}
+.bgu-value p+p{margin-top:12px;}
+.bgu-value strong{color:var(--bgu-gl);}
+.bgu-price{scroll-margin-top:10px;background:rgba(201,146,47,.06);border:2px solid rgba(233,190,104,.45);border-radius:14px 14px 0 0;padding:27px 20px 25px;margin:32px 0 0;text-align:center;}
+.bgu-ptag{font-family:'Bebas Neue',sans-serif;font-size:14px;letter-spacing:2px;color:var(--bgu-gl);margin-bottom:12px;}
+.bgu-pnew{font-family:'Bebas Neue',sans-serif;font-size:84px;color:var(--bgu-gl);line-height:1;}
+.bgu-pdesc{font-size:15px;color:var(--bgu-td);margin-top:7px;}
+.bgu-pnote{margin-top:18px;padding-top:17px;border-top:1px solid rgba(201,146,47,.2);color:var(--bgu-cd);font-size:16px;line-height:1.7;}
+.bgu-pnote strong{color:var(--bgu-cr);}
+.bgu-buy{background:rgba(201,146,47,.06);border:2px solid rgba(233,190,104,.45);border-top:none;border-radius:0 0 14px 14px;padding:7px 16px 20px;margin:0 0 31px;scroll-margin-top:15px;min-height:60px;}
+.bgu-gar{background:rgba(201,146,47,.05);border:1px solid rgba(201,146,47,.2);border-radius:var(--bgu-r);padding:19px;text-align:center;margin:25px 0;}
+.bgu-gar p{font-size:16px;color:var(--bgu-cd);line-height:1.8;}
+.bgu-gar strong{color:var(--bgu-cr);}
+.bgu-excl{background:rgba(140,58,32,.12);border-left:3px solid var(--bgu-rl);padding:17px 18px;border-radius:0 var(--bgu-r) var(--bgu-r) 0;margin:23px 0;font-size:16px;color:var(--bgu-cd);line-height:1.8;}
+.bgu-excl strong{color:var(--bgu-cr);}
+.bgu-close{text-align:center;margin:31px 0 0;}
+.bgu-close h2{font-family:'Playfair Display',serif;font-size:27px;line-height:1.3;color:var(--bgu-cr);margin-bottom:13px;}
+.bgu-close h2 span{color:var(--bgu-gl);}
+.bgu-close p{color:var(--bgu-cd);font-size:17px;line-height:1.8;}
+.bgu-final{margin-top:17px;color:var(--bgu-cr) !important;font-weight:700;}
+.bgu-foot{background:#060708;padding:25px 20px;text-align:center;font-size:12px;color:var(--bgu-td);line-height:1.8;}
+.bgu-sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;background:rgba(9,11,13,.98);border-top:1px solid rgba(233,190,104,.35);padding:9px 13px calc(9px + env(safe-area-inset-bottom,0px));transform:translateY(120%);transition:transform .25s ease;}
+.bgu-sticky.bgu-on{transform:translateY(0);}
+.bgu-sin{max-width:620px;margin:0 auto;display:flex;align-items:center;gap:11px;}
+.bgu-sprice{flex-shrink:0;line-height:1.2;}
+.bgu-sprice b{font-family:'Bebas Neue',sans-serif;font-weight:400;font-size:29px;color:var(--bgu-gl);}
+.bgu-sticky .bgu-btn{margin:0;font-size:20px;padding:13px 12px 10px;box-shadow:0 3px 0 #8A650F;}
+@media(max-width:380px){.bgu-page{font-size:17px;}.bgu-hero h1{font-size:29px;}.bgu-sub{font-size:17px;}.bgu-flash b{font-size:54px;}.bgu-pnew{font-size:72px;}.bgu-sticky .bgu-btn{font-size:18px;}}
+@media(prefers-reduced-motion:reduce){.bgu-sticky{transition:none;}}
+</style>
+<!-- Meta Pixel Code (loads after the page, same pixel ID) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];f.addEventListener('load',function(){setTimeout(function(){
+t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)},1200)});}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', 'COLE-AQUI-O-PIXEL');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=COLE-AQUI-O-PIXEL&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+</head><body>
+<div class="bgu-page">
+
+<div class="bgu-top"><p>&#9995; WAIT &mdash; BEFORE YOU GO TO YOUR DOWNLOADS</p></div>
+
+<section class="bgu-hero"><div class="bgu-wrap">
+  <div class="bgu-tag">YOUR NEXT STEP STARTS HERE</div>
+  <h1>You can play simple songs.<br>Now sound like <em>a real guitarist.</em></h1>
+  <p class="bgu-sub">The Guitar Right Hand Map gave you the strums and patterns that every song is built on. There is one thing left: <strong>the next level &mdash; the skills that make a beginner sound confident.</strong></p>
+  <div class="bgu-result"><strong>A 12-week system, 20 minutes a day</strong> &mdash; barre chords, power chords, capo, bass runs, the blues and your first solo.</div>
+  <div class="bgu-flash"><b>US$9</b></div>
+  <p class="bgu-flashnote">One-time payment &middot; Instant download &middot; 7-day guarantee</p>
+  <a href="#bgu-oferta" class="bgu-btn">YES &mdash; I WANT THE 12-WEEK SYSTEM</a>
+  <p class="bgu-btnsub">One payment &middot; No monthly fees</p>
+</div></section>
+
+<section class="bgu-section"><div class="bgu-wrap">
+  <div class="bgu-div"></div>
+  <div class="bgu-text">
+    <p>Think about what just happened. You bought <strong>The Guitar Right Hand Map</strong> because you wanted a clear path, not random tips.</p>
+    <p>Now you can strum and play simple songs. The next question is how to keep improving without getting lost.</p>
+  </div>
+  <div class="bgu-q">But here is the question the map cannot answer:<br><span>What do you practice after the basics?</span></div>
+  <div class="bgu-prob"><h3>WHAT USUALLY HAPPENS</h3>
+    <p>Most people stall right here. They have the basics, then jump between videos, techniques and songs, and practice the same things they already know.</p>
+    <p>Months go by and they sound exactly the same, so they decide they have reached their limit.</p>
+  </div>
+  <div class="bgu-sol"><h3>WHY THAT IS THE WRONG STARTING POINT</h3>
+    <p>Progress after the basics is not talent, it is <strong>order</strong>: one new skill per week, practiced in the right sequence, with a clear finish line.</p>
+    <p style="margin-top:12px;"><strong>The Guitar Mastery System</strong> gives you that order for 12 weeks &mdash; 60 practice days, each with exactly what to play and when you are ready to move on.</p>
+  </div>
+  <div class="bgu-promise"><div class="bgu-plabel">THE REAL NEXT STEP</div>
+    <h2>Don't stay a beginner.<br><span>Follow the system.</span></h2></div>
+
+  <div class="bgu-path"><div class="bgu-ptitle">Your 3-Month Path</div>
+    <div class="bgu-psub">One new skill per week, 20 minutes a day</div>
+    <div class="bgu-plist"><div class="bgu-pitem"><div class="bgu-pnum">1</div><div><strong>Month 1: real chords</strong><span>The full F, moving barre chords, power chords and sus decorations.</span><i>Moderate</i></div></div><div class="bgu-pitem"><div class="bgu-pnum">2</div><div><strong>Month 2: keys and technique</strong><span>The capo, hammer-ons and pull-offs, bass runs and the 12-bar blues.</span><i>Moderate</i></div></div><div class="bgu-pitem"><div class="bgu-pnum">3</div><div><strong>Month 3: freedom</strong><span>The pentatonic scale, your first solo, and any song from a chord chart.</span><i>Moderate</i></div></div><div class="bgu-pitem"><div class="bgu-pnum">4</div><div><strong>A clear finish line every week</strong><span>Each week ends with a “Done when” goal, so you know when to move on.</span><i>Easy</i></div></div><div class="bgu-pitem"><div class="bgu-pnum">5</div><div><strong>Your concert</strong><span>Week 12: a three-song set, played or recorded from start to finish.</span><i>Moderate</i></div></div></div></div>
+
+  <div class="bgu-inc"><div class="bgu-ititle">Inside The Guitar Mastery System</div>
+    <div class="bgu-isub">20 pages, in the same diagrams and notation you already know</div>
+    <ul class="bgu-ilist"><li><span><strong>12 weeks, 60 practice days</strong> &mdash; 20 minutes a day, with exactly what to play</span></li><li><span><strong>Barre chords without pain</strong> &mdash; the full F, Bm and three shapes that give you every major and minor chord</span></li><li><span><strong>Power chords</strong> &mdash; the sound of rock, with palm muting</span></li><li><span><strong>Capo and keys</strong> &mdash; play any song in the key that fits your voice</span></li><li><span><strong>Hammer-ons, pull-offs and bass runs</strong> &mdash; the moves that make strumming sound alive</span></li><li><span><strong>The 12-bar blues</strong> &mdash; three chords behind thousands of songs</span></li><li><span><strong>Reading any chord chart</strong> &mdash; a 5-step routine to learn a new song in about 30 minutes</span></li><li><span><strong>Your first solo</strong> &mdash; the pentatonic scale and three licks over the blues</span></li><li><span><strong>A 12-week tracker and a quick reference</strong> &mdash; to print and keep on the music stand</span></li><li><span><strong>Clear diagrams on a cream background</strong> &mdash; readable on your phone or on paper</span></li><li><span><strong>Yours to keep</strong> &mdash; download it, print it, no expiry</span></li></ul></div>
+
+  <div class="bgu-value"><h2>The Right Hand Map gave you the foundation.<br>This one gives you the path forward.</h2>
+    <p>The Right Hand Map is your <strong>starting point.</strong> This is your <strong>road map.</strong></p>
+    <p>Twelve weeks from now you can either sound the same as today, or play barre chords, the blues and your own solo. The difference is a plan.</p></div>
+
+  <div class="bgu-price" id="bgu-oferta"><div class="bgu-ptag">ONE-TIME OFFER</div>
+    <div class="bgu-pnew">US$9</div>
+    <div class="bgu-pdesc">One-time payment &middot; No monthly fees &middot; Instant download</div>
+    <div class="bgu-pnote">You are seeing this <strong>because you just picked up The Guitar Right Hand Map.</strong> This is the plan for the next three months of your playing.</div></div>
+
+  <div class="bgu-buy" id="bgu-buy"><div id="hotmart-sales-funnel"></div></div>
+
+  <div class="bgu-gar"><p>&#128737;&#65039; <strong>7-Day Money-Back Guarantee.</strong><br>Open it, start week 1. If it is not what you expected, ask for a refund within 7 days and get 100% back.</p></div>
+
+  <div class="bgu-excl">&#9888;&#65039; <strong>The Guitar Mastery System is not sold on its own.</strong><br><br>This page is the one place it is offered, and only to people who just picked up The Guitar Right Hand Map.</div>
+
+  <div class="bgu-close"><h2>You already have the basics.<br><span>Now take the next step.</span></h2>
+    <p>Most people stop improving right after the basics, because nobody tells them what comes next. This system does, one week at a time.</p>
+    <p class="bgu-final">12 weeks. 20 minutes a day. No sheet music.</p></div>
+
+  <a href="#bgu-oferta" class="bgu-btn">YES &mdash; I WANT THE MASTERY SYSTEM</a>
+  <p class="bgu-btnsub" style="margin-bottom:36px;">US$9 &middot; one-time payment &middot; 7-day guarantee</p>
+</div></section>
+
+<div class="bgu-foot"><p>&copy; The Masters' Secret &middot; All rights reserved</p><p style="margin-top:6px;">Securely hosted on Hotmart</p></div>
+
+<div class="bgu-sticky" id="bgu-sticky"><div class="bgu-sin">
+  <div class="bgu-sprice"><b>US$9</b></div>
+  <a href="#bgu-oferta" class="bgu-btn">GET IT NOW</a></div></div>
+</div>
+
+<script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+<script>checkoutElements.init('salesFunnel').mount('#hotmart-sales-funnel');</script>
+<script>
+(function(){
+  var bar=document.getElementById('bgu-sticky'),buy=document.getElementById('bgu-buy');
+  if(!bar||!buy)return; var buyVisible=false;
+  function update(){var past=window.scrollY>420; if(past&&!buyVisible){bar.classList.add('bgu-on');}else{bar.classList.remove('bgu-on');}}
+  if('IntersectionObserver' in window){new IntersectionObserver(function(e){buyVisible=e[0].isIntersecting;update();},{threshold:0.25}).observe(buy);}
+  window.addEventListener('scroll',update,{passive:true}); update();
+})();
+</script>
+<script>
+(function(){
+  var alvo=document.getElementById('bgu-oferta');if(!alvo)return;
+  function ir(){var y=alvo.getBoundingClientRect().top+window.pageYOffset-10;window.scrollTo({top:y,behavior:'smooth'});}
+  document.querySelectorAll('a[href="#bgu-oferta"]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();ir();setTimeout(ir,700);});});
+})();
+</script>
+</body></html>
